@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/BD_Huzco
+    url: jdbc:mysql://localhost:3306/BD_libreriaElSaber
     username: root
     password: mysql
   jpa:
