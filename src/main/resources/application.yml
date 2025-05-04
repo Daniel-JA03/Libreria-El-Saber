@@ -10,3 +10,17 @@ spring:
       ddl-auto: update
     show-sql: true
 
+# Mi configuracion de Capa de Seguridad
+app:
+  security:
+    csrf:
+      enabled: false
+    user:
+      memory:
+        users:
+          - name: admin
+            password: adminPass
+            roles: [ADMIN]
+          - name: user
+            password: userPass
+            roles: [USER]
